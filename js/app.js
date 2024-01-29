@@ -47,7 +47,7 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
-// Write your code here
+// Write your code here ( let first two numbers)
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   // use sum to add a and b
   let ab = sum(a,b)[0];
@@ -80,7 +80,13 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
+let firstNumber = sumArr[0];
+let secondnumber =sumArr[1];
+let thirdnumber = sumArr[2]
 
+let sumNumber =sum(firstnumber, sum(secondnumber, sum(thirdnumber;
+let secondTwoArray = (first number, secondnumber, thirdnumber);
+return [sumnumber, {firstNumber}, {secondnumber}, {thirdnumber}]
 }
 
 // Here is the test for sumArray(); uncomment it to run it
